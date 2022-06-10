@@ -7,7 +7,15 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Farrell DiAnni</title>
 </head>
-<body>
+
+<!-- 
+TODO: 
+    -Filling in About Me section
+    -fix the god damn picture 
+    -Putting Pictures/Adding proper css to the work section
+    -Hover functionality on links in nav and also on pictures
+ -->
+<body class="bg-image">
 
     <header>
         <h1>
@@ -16,36 +24,83 @@
 
 <!-- NAV BAR -->
         <nav>
-            <ul>
+            <ul class="link">
                 <li>  
-                    <a href="#about-me">About Me</a>
+                    <a href="#about-me">
+                        <span>About Me</span>
+                    </a>
                 </li>
 
                 <li>
-                    <a href="#work">Work</a>
+                    <a href="#work">
+                        <span>Work</span>
+                    </a>
                 </li>
 
                 <li>
-                    <a href="#contact-me">Contact Me</a>
+                    <a href="#contact-me">
+                        <span>Contact Me</span>
+                    </a>
                 </li>
 
                 <li>
-                    <a href="#resume">Resume</a>                   
+                    <a href="#resume">
+                        <span>Resume</span>
+                    </a>                   
                 </li>
             </ul>
         </nav>
+
+
     </header>
 
 <!-- MAIN BODY -->
+  
+<section>
 
-<section id="about-me">
-    <h2>About Me</h2>
+    <section id="about-me" class="about-me">
+        <h2>About Me</h2>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius accusamus deleniti quam sint. Placeat praesentium iste, iusto, facilis neque nam tenetur omnis odit quasi inventore aliquid et quas? Neque.</p>
-</section>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius accusamus deleniti quam sint. Placeat praesentium iste, iusto, facilis neque nam tenetur omnis odit quasi inventore aliquid et quas? Neque.
+        </p>
+    </section>
 
-<section id="work">
-    <h2>Work</h2>
+
+    <section id="work" class="work">
+        <h2>Work</h2>
+
+        <div class="main-card">
+            <a href="">
+                Surf Report
+            </a>
+        </div>
+
+        <div class="small-card">
+            <a href="">
+                LED Wall
+            </a>
+        </div>
+
+        <div class="small-card">
+            <a href="">
+                Calculator
+            </a>
+        </div>
+
+        <div class="small-card">
+            <a href="">
+                Pastel Puzzles
+            </a>
+        </div>
+
+        <div class="small-card">
+            <a href="">
+                Run Buddy
+            </a>
+        </div>
+    </section>
+
 </section>
 
 <!-- FOOTER / CONTACT ME  -->
@@ -54,30 +109,30 @@
     <h3>Contact Me</h3>
 
     <!-- CONTACT LINKS -->
-    <ul>
+    <ul class="link">
         <li>
             <a href="">
-               (919)601-3980 
+               <span>(919)601-3980</span>
             </a>
         </li>
         <li>
-            <a href="">
-                farrell.d.dianni@gmail.com
+            <a href="mailto:farrell.d.dianni@gmail.com">
+                <span>farrell.d.dianni@gmail.com</span>
             </a>
         </li>
         <li>
-            <a href="">
-                Github
+            <a href="https://github.com/farrelldianni" target="_blank">
+                <span>Github</span>
             </a>
         </li>
         <li>
-            <a href="">
-                Twitter
+            <a href="https://twitter.com/neem0w" target="_blank">
+                <span>Twitter</span>
             </a>
         </li>
         <li>
-            <a href="">
-                Spotify
+            <a href="https://open.spotify.com/user/farrell.d" target="_blank">
+                <span>Spotify</span>
             </a>
         </li>
     </ul>
