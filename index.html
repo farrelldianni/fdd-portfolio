@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css" />
-    <title>Farrell DiAnni</title>
+    <title>Farrell DiAnni Portfolio</title>
 </head>
 
 <!-- 
@@ -19,12 +19,13 @@ TODO:
 
     <header>
         <h1>
-           <a> Farrell DiAnni </a>
+           <a>Farrell DiAnni</a>
         </h1>
 
 <!-- NAV BAR -->
         <nav>
-            <ul class="link">
+            <div class="link">
+            <ul >
                 <li>  
                     <a href="#about-me">
                         <span>About Me</span>
@@ -49,6 +50,7 @@ TODO:
                     </a>                   
                 </li>
             </ul>
+            </div>
         </nav>
 
 
@@ -59,45 +61,61 @@ TODO:
 <section>
 
     <section id="about-me" class="about-me">
+
+
         <h2>About Me</h2>
 
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius accusamus deleniti quam sint. Placeat praesentium iste, iusto, facilis neque nam tenetur omnis odit quasi inventore aliquid et quas? Neque.
-        </p>
+        <div class="about-me-content">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius accusamus deleniti quam sint. Placeat praesentium iste, iusto, facilis neque nam tenetur omnis odit quasi inventore aliquid et quas? Neque.
+            </p>
+        </div>
     </section>
 
+</section>
+
+<section>
 
     <section id="work" class="work">
         <h2>Work</h2>
 
-        <div class="main-card">
-            <a href="">
-                Surf Report
-            </a>
-        </div>
+        <div class="work-content"></div>
 
-        <div class="small-card">
-            <a href="">
-                LED Wall
-            </a>
-        </div>
+            <div class="main-card ">
+                <span class="photo-text">
+                    Surf Report
+                </span>
+                <img src="./assets/images/surf-report.jpg" class="main-img"/>
+            </div>
 
-        <div class="small-card">
-            <a href="">
-                Calculator
-            </a>
-        </div>
+            <div class="column-1">
+                <div class="small-card ">
+                    <span>LED Wall</span>
+                    <img src="./assets/images/led-wall.jpg" class="small-img"/>
+                    
+                </div>
 
-        <div class="small-card">
-            <a href="">
-                Pastel Puzzles
-            </a>
-        </div>
+                <div class="small-card ">
+                    <span>Calculator</span>
+                    <img src="./assets/images/calculator.jpg"" class="small-img">
+        
+                </div>
+            </div>
 
-        <div class="small-card">
-            <a href="">
-                Run Buddy
-            </a>
+            <div class="column-2">
+                <div class="small-card">
+                    <span>Pastel Puzzles</span>
+                    <img src="./assets/images/pastel-puzzles.jpg" class="small-img">
+        
+                </div>
+
+                <div class="small-card" >
+                    <span>Run Buddy</span>
+                    <img src="./assets/images/calculator.jpg" class="small-img">
+
+                </div>
+            </div>
+
         </div>
     </section>
 
