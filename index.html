@@ -10,21 +10,19 @@
 
 <!-- 
 TODO: 
-    -Filling in About Me section
-    -fix the god damn picture 
     -Putting Pictures/Adding proper css to the work section
     -Hover functionality on links in nav and also on pictures
  -->
-<body class="">
 
+<body >
+
+<!-- HEADER/NAV-->
     <header>
         <h1>
            <a>Farrell DiAnni</a>
         </h1>
-
-<!-- NAV BAR -->
-        <nav >
-            <div class="link">
+        <nav class="links">
+            <div>
             <ul >
                 <li>  
                     <a href="#about-me">
@@ -56,9 +54,9 @@ TODO:
 
     </header>
 
-<!-- MAIN BODY -->
-  
-<section>
+<figure></figure>
+<!-- ABOUT ME--> 
+<main> 
 
     <section id="about-me" class="about-me ">
 
@@ -69,18 +67,21 @@ TODO:
             <p>
                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ad sit iure. Iure porro, pariatur commodi sint iste nam, perspiciatis ullam sequi laboriosam provident debitis omnis molestiae esse cum minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius accusamus deleniti quam sint. Placeat praesentium iste, iusto, facilis neque nam tenetur omnis odit quasi inventore aliquid et quas? Neque.
             </p>
-        </br>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste velit corrupti est blanditiis assumenda molestiae adipisci distinctio! Nihil sunt, neque eveniet animi molestias magnam eius vitae optio corporis eos ut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, veniam exercitationem vero pariatur ea in tenetur reiciendis ut! Voluptates architecto doloremque rerum nam sit! Vitae enim quae laudantium deserunt placeat?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste velit corrupti est blanditiis assumenda molestiae adipisci distinctio! Nihil sunt, neque eveniet animi molestias magnam eius vitae optio corporis eos ut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, veniam exercitationem vero pariatur ea in tenetur reiciendis ut! Voluptates architecto doloremque rerum nam sit! Vitae enim quae laudantium deserunt placeat?
+
+            </p>
         </div>
     </section>
 
-</section>
 
-<section>
+
+<!-- WORK SECTION -->
+
 
     <section id="work" class="work ">
-        <div class="work-flex">
-            <h2 class="section-title" >Work</h2>
+        
+        <h2 class="section-title" >Work</h2>
+            <div class="work-flex">
 
             
                 <div class="main-card ">
@@ -92,24 +93,24 @@ TODO:
                 </div>
             
 
-                <div class="small-card">
+                <div class="small-card-left">
                     <img src="./assets/images/led-wall.jpg" class="small-img"/>
                     <div class="photo-text"></div>
                 </div>
 
-                <div class="small-card">
+                <div class="small-card-right">
                     
                     <img src="./assets/images/calculator.jpg" class="small-img" />
 
                 </div>
 
-                <div class="small-card">
+                <div class="small-card-left">
                     
                     <img src="./assets/images/pastel-puzzles.jpg" #id="work-example" class="small-img">
         
                 </div>
 
-                <div class="small-card" >
+                <div class="small-card-right" >
                     
                     <img src="./assets/images/running.jpg" class="small-img">
 
@@ -120,7 +121,7 @@ TODO:
 
     </section>
 
-</section>
+</main>
 
 <!-- FOOTER / CONTACT ME  -->
 
