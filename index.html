@@ -10,43 +10,41 @@
 
 <!-- 
 TODO: 
-    -Filling in About Me section
-    -fix the god damn picture 
     -Putting Pictures/Adding proper css to the work section
     -Hover functionality on links in nav and also on pictures
  -->
-<body class="bg-image">
 
+<body >
+
+<!-- HEADER/NAV-->
     <header>
         <h1>
            <a>Farrell DiAnni</a>
         </h1>
-
-<!-- NAV BAR -->
-        <nav>
-            <div class="link">
+        <nav class="links">
+            <div>
             <ul >
                 <li>  
                     <a href="#about-me">
-                        <span>About Me</span>
+                        About Me
                     </a>
                 </li>
 
                 <li>
                     <a href="#work">
-                        <span>Work</span>
+                        Work
                     </a>
                 </li>
 
                 <li>
                     <a href="#contact-me">
-                        <span>Contact Me</span>
+                        Contact Me
                     </a>
                 </li>
 
                 <li>
                     <a href="#resume">
-                        <span>Resume</span>
+                        Resume
                     </a>                   
                 </li>
             </ul>
@@ -56,104 +54,115 @@ TODO:
 
     </header>
 
-<!-- MAIN BODY -->
-  
-<section>
+<figure></figure>
+<!-- ABOUT ME--> 
+<main> 
 
-    <section id="about-me" class="about-me">
+    <section id="about-me" class="about-me ">
 
 
-        <h2>About Me</h2>
+        <h2 class="section-title">About </br>Me</h2>
 
         <div class="about-me-content">
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius accusamus deleniti quam sint. Placeat praesentium iste, iusto, facilis neque nam tenetur omnis odit quasi inventore aliquid et quas? Neque.
+               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ad sit iure. Iure porro, pariatur commodi sint iste nam, perspiciatis ullam sequi laboriosam provident debitis omnis molestiae esse cum minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius accusamus deleniti quam sint. Placeat praesentium iste, iusto, facilis neque nam tenetur omnis odit quasi inventore aliquid et quas? Neque.
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste velit corrupti est blanditiis assumenda molestiae adipisci distinctio! Nihil sunt, neque eveniet animi molestias magnam eius vitae optio corporis eos ut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, veniam exercitationem vero pariatur ea in tenetur reiciendis ut! Voluptates architecto doloremque rerum nam sit! Vitae enim quae laudantium deserunt placeat?
+
             </p>
         </div>
     </section>
 
-</section>
 
-<section>
 
-    <section id="work" class="work">
-        <h2>Work</h2>
+<!-- WORK SECTION -->
 
-        <div class="work-content"></div>
 
-            <div class="main-card ">
-                <span class="photo-text">
-                    Surf Report
-                </span>
-                <img src="./assets/images/surf-report.jpg" class="main-img"/>
-            </div>
+    <section id="work" class="work ">
+        
+        <h2 class="section-title" >Work</h2>
+            <div class="work-flex">
 
-            <div class="column-1">
-                <div class="small-card ">
-                    <span>LED Wall</span>
+            
+                <div class="main-card">
+                    <img src="./assets/images/surf-report.jpg" class="main-img"/>
+                    <div class="photo-text-main">
+                        <h3>Surfer Report</h3>
+                            MERN Stack
+                    </div>
+                </div>
+            
+
+                <div class="small-card-left">
                     <img src="./assets/images/led-wall.jpg" class="small-img"/>
-                    
+                    <div class="photo-text"> 
+                        <h3>LED Wall</h3>
+                            Node/Iot
+                    </div>
                 </div>
 
-                <div class="small-card ">
-                    <span>Calculator</span>
-                    <img src="./assets/images/calculator.jpg"" class="small-img">
+                <div class="small-card-right">
+                    <img src="./assets/images/calculator.jpg" class="small-img" />
+                    <div class="photo-text"> 
+                        <h3>Calculator</h3>
+                            React/JS/CSS
+                    </div>
+
+                </div>
+
+                <div class="small-card-left">
+                    <img src="./assets/images/pastel-puzzles.jpg" #id="work-example" class="small-img">
+                    <div class="photo-text"> 
+                        <h3>Pastel Puzzles</h3>
+                            MERN Stack
+                    </div>
         
                 </div>
-            </div>
 
-            <div class="column-2">
-                <div class="small-card">
-                    <span>Pastel Puzzles</span>
-                    <img src="./assets/images/pastel-puzzles.jpg" class="small-img">
-        
+                <div class="small-card-right" >
+                    <img src="./assets/images/running.jpg" class="small-img">
+                    <div class="photo-text"> 
+                        <h3>Run Buddy</h3>
+                            HTML/CSS
+                    </div>
                 </div>
-
-                <div class="small-card" >
-                    <span>Run Buddy</span>
-                    <img src="./assets/images/calculator.jpg" class="small-img">
-
-                </div>
-            </div>
-
-        </div>
+            </div> 
     </section>
-
-</section>
+</main>
 
 <!-- FOOTER / CONTACT ME  -->
 
 <footer id="contact-me">
-    <h3>Contact Me</h3>
+    <h3 class="section-title">Contact Me</h3>
 
     <!-- CONTACT LINKS -->
-    <ul class="link">
-        <li>
-            <a href="">
-               <span>(919)601-3980</span>
-            </a>
-        </li>
-        <li>
-            <a href="mailto:farrell.d.dianni@gmail.com">
-                <span>farrell.d.dianni@gmail.com</span>
-            </a>
-        </li>
-        <li>
-            <a href="https://github.com/farrelldianni" target="_blank">
-                <span>Github</span>
-            </a>
-        </li>
-        <li>
-            <a href="https://twitter.com/neem0w" target="_blank">
-                <span>Twitter</span>
-            </a>
-        </li>
-        <li>
-            <a href="https://open.spotify.com/user/farrell.d" target="_blank">
-                <span>Spotify</span>
-            </a>
-        </li>
-    </ul>
+        <ul class="link">
+            <li>
+                <a href="">
+                (919)601-3980
+                </a>
+            </li>
+            <li>
+                <a href="mailto:farrell.d.dianni@gmail.com">
+                    farrell.d.dianni@gmail.com
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/farrelldianni" target="_blank">
+                    Github
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/neem0w" target="_blank">
+                    Twitter
+                </a>
+            </li>
+            <li>
+                <a href="https://open.spotify.com/user/farrell.d" target="_blank">
+                    Spotify
+                </a>
+            </li>
+        </ul>
 </footer>
 
 
