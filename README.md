@@ -1,7 +1,9 @@
 # Farrell DiAnni Portfolio 
 ---
 ##  Description 
-This is my first totally self built project. Pulling on topics and knowledge I learned in the past 2 weeks.
+This is my first totally self built project. 
+Using flexboxes, mediaqueries, and general CSS. All came together to make a personal portfolio for the rest of the class time.
+Pulling on topics and knowledge I learned in the past 2 weeks.
 👍
 
 ## Deployment URL
