@@ -9,3 +9,5 @@ Pulling on topics and knowledge I learned in the past 2 weeks.
 ## Deployment URL
 
 https://farrelldianni.github.io/fdd-portfolio/
+
+! [Screenshot of Deployed Site](./assets/images/portfolio-image.png)
