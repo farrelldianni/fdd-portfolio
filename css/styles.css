@@ -1,7 +1,7 @@
     /* root styles */
 :root {
     --primary-color: #C2A673;
-    --secondary-color: #76b5c5;
+    --secondary-color: #F2EFDE;
     --tertiary-color: #3F72AF;
     --quaternary-color: #112D4E;
     --font-color: #624D26;
@@ -13,56 +13,32 @@
     box-sizing: border-box;
 }
 
-/* ---------------- HEADER AND NAVIGATION STYLES ---------------- */
-
-header {
-    background-size: cover;
-    background-position: fixed;
-    background-repeat: no-repeat;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-
-}
-
-header h1 {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    font-size: 60px;
-    font-weight: bold;
-    color: var(--quaternary-color);
+body {
     
 }
+/* ---------------- HEADER AND NAVIGATION STYLES ---------------- */
 
 header nav {
     width: 40%;
     height: 100%;
+
 }
 
 header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    list-style: none;
     width: 100%;
-    height: 130px;
-    align-items: center;
 
-   
 }
 
  header nav ul li a {
     font-weight: lighter;
     font-size: 1.55vw;
     text-decoration: none;
-    color: var(--font-color);
     border-bottom: 1px solid var(--secondary-color);
-
  }
 
  header nav ul li a:hover {
 
- }
+ } 
 
 /* -------------------- SPLASH IMAGE -------------------- */
  figure img {
@@ -71,7 +47,6 @@ header nav ul {
     margin: 0px;
     background-size: cover;
     background-position: center;
-    /* background-image: url("../assets/images/farrell-dianni.JPG"); */
     object-fit:cover;
     
     object-position: center top;
@@ -133,7 +108,7 @@ footer ul {
 
 /*-------------------- SECTION TITLE -------------------*/
 
-.section-title {
+/* .section-title {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 40px;
     color:var(--primary-color);
@@ -141,7 +116,7 @@ footer ul {
     text-align: Right;
     padding: 15px 100px;
     width: 25%;
-}
+} */
 
 /* ABOUT ME SECTION */
 .about-me {
@@ -150,14 +125,14 @@ footer ul {
     justify-content: left;
    
 }
-
+/* 
 .about-me-content {
     width: 70%;
     text-align: left;
     margin-left: 20px;
     font-size: 16px;
     line-height: 1.2;
-}
+} */
 
 
 
@@ -227,8 +202,7 @@ footer ul {
     width: auto;
     height: auto;
     font-weight: lighter;
-    background-color: var(--secondary-color);
-    color: var(--font-color);
+
     
 }
 
@@ -309,7 +283,7 @@ footer ul {
     font-weight: lighter;
     font-size: 1.55vw;
     text-decoration: none;
-    color: var(--font-color);
+    
     border-bottom: 1px solid var(--secondary-color);
     align-items: center;
     
