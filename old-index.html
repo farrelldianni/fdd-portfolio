@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">   
+
+    
+    <title>Farrell DiAnni Portfolio</title>
+</head>
+
+<!-- TODO
+        -add boostrap rows/coloums to section
+        -figure out way to add text over image with bootstrap or css 
+            *look to spotify for inspiration on linear gradient for text clarity 
+        -find solid typeface for whole page. 
+        -figure out a way to add some sort of modal to pages
+            *maybe in the work section a each image can trigger a modal to come up with the readMe from the project along with an embeded image of the live page
+-->
+
+<body class="bg-dark text-white" >
+
+<!-- HEADER/NAV-->
+<div class="container-fluid w-auto ">
+
+    <header class="row justify-content-between align-items-center">
+        <h1 class="col-lg-5 col-md-4">
+            <div class="d-flex display-2 justify-content-center mt-2">
+           Farrell DiAnni
+            </div>
+        </h1>
+        <nav class="col-lg-6">
+            <div class="d-flex a ">
+                <ul class="nav justify-content-between" >
+                    <li class="nav-item">  
+                        <a href="#about-me" class="nav-link active">
+                            About Me
+                        </a>
+                    </li>
+
+                    <li class="nav">
+                        <a href="#work" class="nav-link active">
+                            Work
+                        </a>
+                    </li>
+
+                    <li class="nav">
+                        <a href="#contact-me" class="nav-link active">
+                            Contact Me
+                        </a>
+                    </li>
+
+                    <li class="nav">
+                        <a href="#resume" class="nav-link active">
+                            Resume
+                        </a>                   
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+    </header>
+</div>
+<!-- END HEADER -->
+
+<!-- <figure>
+    <img src="./assets/images/farrell-dianni.JPG" alt="me at the beach" class="img-fluid" />
+</figure> -->
+<!-- ABOUT ME--> 
+<main> 
+
+    <div class="">
+        <section id="about-me" class="about-me container-fluid d-flex justify-content-evenly mt-4">
+
+            <h2 class="col-lg-3 display-4">About Me</h2>
+
+            <div class="col-lg-8 ">
+
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ad sit iure. Iure porro, pariatur commodi sint iste nam, perspiciatis ullam sequi laboriosam provident debitis omnis molestiae esse cum minus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum eius accusamus deleniti quam sint. Placeat praesentium iste, iusto, facilis neque nam tenetur omnis odit quasi inventore aliquid et quas? Neque.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste velit corrupti est blanditiis assumenda molestiae adipisci distinctio! Nihil sunt, neque eveniet animi molestias magnam eius vitae optio corporis eos ut?Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, veniam exercitationem vero pariatur ea in tenetur reiciendis ut! Voluptates architecto doloremque rerum nam sit! Vitae enim quae laudantium deserunt placeat?
+                </p>
+
+            </div>
+        </section>
+    </div>
+
+
+
+<!-- WORK SECTION -->
+
+
+
+
+    <section id="work" class="container-fluid d-flex text-dark" ">
+        
+        <h2 class="section-title col-lg-3 display-4" >Work</h2>
+            <div class="work-flex">
+
+            
+                <div class="main-card">
+                    <img src="./assets/images/running.jpg" class="main-img" alt=""/>
+                    <div class="photo-text-main">
+                        <h3>Run Buddy</h3>
+                            HTML/CSS
+                    </div>
+                </div>
+            
+                <div class="container-fluid d-flex">
+                  
+                        <!-- <img src="./assets/images/led-wall.jpg" class="small-img col-5" alt=""/> -->
+                    <div class="card col-5" style="width:18rem;">
+                        <img src="./assets/images/led-wall.jpg" class="card-img-top" alt="LED Wall Project">
+                            <div class="card-body">
+                                <h5 class="card-title"> LED Wall</h5>
+                                <p class="card-text">JS, JQ, Bootstrap</p>
+                            </div>
+
+                    </div>
+                    
+               
+
+                    <div class="small-card-right">
+                        <img src="./assets/images/calculator.jpg" class="img-thumbnail  " alt=""/>
+                        <div class="photo-text"> 
+                            <h3>Calculator</h3>
+                                React/JS/CSS
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="container-fluid d-flex justify-content-between">
+                    <div class="small-card-left col-5">
+                        <img src="./assets/images/pastel-puzzles.jpg" #id="work-example" class="small-img" alt="">
+                        <div class="photo-text"> 
+                            <h3>Pastel Puzzles</h3>
+                                MERN Stack
+                        </div>
+            
+                    </div>
+
+                    <div class="small-card-right col-5" >
+                        <img src="./assets/images/surf-report.jpg" class="small-img">
+                        <div class="photo-text"> 
+                            <h3>Surf Report</h3>
+                                MERN Stack
+                        </div>
+                    </div>
+                </div>
+                
+            </div> 
+    </section>
+</main>
+
+<!-- FOOTER / CONTACT ME  -->
+
+<footer id="contact-me" class="contact-me container-fluid d-flex">
+    <h3 class="section-title col-lg-3">Contact Me</h3>
+
+    <!-- CONTACT LINKS -->
+        <ul class="link">
+            <li>
+                <a href="">
+                (919)601-3980
+                </a>
+            </li>
+            <li>
+                <a href="mailto:farrell.d.dianni@gmail.com">
+                    farrell.d.dianni@gmail.com
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/farrelldianni" target="_blank">
+                    Github
+                </a>
+            </li>
+            <li>
+                <a href="https://twitter.com/neem0w" target="_blank">
+                    Twitter
+                </a>
+            </li>
+            <li>
+                <a href="https://open.spotify.com/user/farrell.d" target="_blank">
+                    Spotify
+                </a>
+            </li>
+        </ul>
+</footer>
+
+
+</body>
+</html>
