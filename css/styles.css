@@ -22,8 +22,11 @@ body {
 
 .link {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: black;
+    font-weight: light;
+
 }
+
 /* HEADER */
 
 header {
@@ -51,15 +54,13 @@ main ul li {
     bottom:8px;
     left:16px;
 }
-section div ul .img-gradient {
-    /* 
-            FIGURE OUT HOW TO GET THIS ABOVE PICTURE - SPOTIFY STYLE gradient
+/* section div ul .img-gradient {
+    FIGURE OUT HOW TO GET THIS ABOVE PICTURE - SPOTIFY STYLE gradient
     background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%); 
-    */
     border-radius: 8px;
     
   
-}
+} */
 
 /* WORK TEST GALLERY */
 
@@ -79,9 +80,14 @@ section div ul .img-gradient {
     vertical-align: middle;
 }
 
-    
-
-
-
 /* FOOTER */
+.bi {
+    display: inline-block;
+    content: "";
+    vertical-align: -.125em;
+    background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>");
+    background-repeat: no-repeat;
+    background-size: 10rem 10rem;
+    font-size: larger;
+}
 
