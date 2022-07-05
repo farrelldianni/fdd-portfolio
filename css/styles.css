@@ -1,9 +1,9 @@
 :root {
     --primary-color: #2E4057;
-    --secondary-color: #2E4057;
-    --tertiary-color: #DC5FE7;
-    --quaternary-color: #3EC439;
-    --background-color:#F2EFDE;
+    --secondary-color: #6c84a4;
+    --tertiary-color: #daaba2;
+    --quaternary-color: #8ab8cc;
+    --background-color:##dee0e1;
     
 }
 
@@ -11,24 +11,77 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--background-color);
+}
+
 /* MULTIPLE USE */
 .section-title {
-    border-right: 3px solid var(--primary-color);
+    border-right: 3px solid var(--secondary-color);
+}
+
+.link {
+    text-decoration: none;
+    color: var(--secondary-color);
 }
 /* HEADER */
+
+header {
+    margin: 2%;
+    box-shadow: 0 30px 40px rgba(0,0,0,.1);
+
+}
+
 header h1 div{
     font-size: 10vw;
     text-align: right;
 }
 
+.mask {
+    height: 100%;
+}
+
 /* WORK */
 main ul li {
     list-style: none;
+    z-index: -1;
+}
+.text {
+    position: absolute;
+    bottom:8px;
+    left:16px;
+}
+section div ul .img-gradient {
+    /* 
+            FIGURE OUT HOW TO GET THIS ABOVE PICTURE - SPOTIFY STYLE gradient
+    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%); 
+    */
+    border-radius: 8px;
+    
+  
 }
 
-.img-gradient {
-    background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
+/* WORK TEST GALLERY */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
 }
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+    
+
+
 
 /* FOOTER */
 
